@@ -1,0 +1,17 @@
+{
+  "name": "ng1_modules",
+  "description": "通用ng1工具模块",
+  "main": "index.js",
+  "authors": [
+    "steven han"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/hanzhipeng1516/ng1_modules",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

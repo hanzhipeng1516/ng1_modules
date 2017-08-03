@@ -1,0 +1,22 @@
+{
+  "name": "ng1_modules",
+  "version": "1.0.0",
+  "description": "通用ng1工具模块",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hanzhipeng1516/ng1_modules.git"
+  },
+  "author": "steven han",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hanzhipeng1516/ng1_modules/issues"
+  },
+  "homepage": "https://github.com/hanzhipeng1516/ng1_modules#readme",
+  "dependencies": {
+    "bower": "^1.8.0"
+  }
+}
