@@ -1,7 +1,8 @@
 app.directive('webUploader', function () {
     return {
         scope: {
-            imgUrlArr: '='
+            imgUrlArr: '=',
+            uploadUrl: '@'
         },
         restrict: 'E',
         template: ""
@@ -181,7 +182,7 @@ app.directive('webUploader', function () {
                 swf: 'Uploader.swf',
                 chunked: false,
                 chunkSize: 512 * 1024,
-                server: 'http://localhost:8080/stStore/common/imgUpload',
+                server: $scope.uploadUrl,
                 // runtimeOrder: 'flash',
                 // accept: {
                 //     title: 'Images',
