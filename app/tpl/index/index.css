@@ -1,0 +1,15 @@
+.ModuleListPage {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.ModuleListPage div {
+    width: 96%;
+    background: #dddddd;
+    display: block;
+    height: 2.4rem;
+    line-height: 2.4rem;
+    margin: 0.4rem auto;
+    text-indent: 2em;
+}
