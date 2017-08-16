@@ -30,6 +30,9 @@ app.run(
                         }]
                     }
                 })
+                /*
+                 * http
+                 * */
                 .state('app.httpService', {
                     url: '/httpService',
                     templateUrl: 'tpl/httpService/httpService.html',
@@ -45,6 +48,9 @@ app.run(
                         }]
                     }
                 })
+                /*
+                 * webUploader
+                 * */
                 .state('app.webUploader', {
                     url: '/webUploader',
                     templateUrl: 'tpl/webUploader/webUploader.html',
@@ -56,6 +62,24 @@ app.run(
                                 'tpl/webUploader/webUploader.css',
                                 'tpl/webUploader/webUploader.direct.js',
                                 'tpl/webUploader/webUploader.ctrl.js'
+                            ]);
+                        }]
+                    }
+                })
+                /*
+                 *
+                 * */
+                .state('app.eChart', {
+                    url: '/eChart',
+                    templateUrl: 'tpl/echart/echart.html',
+                    controller: 'EChartCtrl',
+                    prefetchTemplate: false,
+                    resolve: {
+                        deps: ['$ocLazyLoad', function ($ocLazyLoad) {
+                            return $ocLazyLoad.load([
+                                'tpl/echart/echart.css',
+                                'tpl/echart/echart.direct.js',
+                                'tpl/echart/echart.ctrl.js'
                             ]);
                         }]
                     }
